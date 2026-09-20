@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 1.0,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "DastardlyDarkness",
+    "fadeTime": 2.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "darkfrownhurt",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["LOOK AT WHAT YOU'VE DONE."]
+    },
+    {
+      "speaker": "darkfrownhurt",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["YOU NEVER LISTEN BOYFRIEND!!!"]
+    },
+    {
+      "speaker": "darkfrownhurt",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["HE'S HEADING FOR THE BRIDGE!!"]
+    },
+    {
+      "speaker": "darkfrownhurt",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["QUICKLY, TEACH HIM RESPECT GUARD!!"]
+    },
+    {
+      "speaker": "distressorangy",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["Foolish boy, you should've listened to our king's words."]
+    },
+    {
+      "speaker": "boyfriend",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["Boop?"]
+    },
+    {
+      "speaker": "distressorangy",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["The king knows all, and he was hoping things would be different."]
+    },
+    {
+      "speaker": "distressorangy",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["You know what, it's time to give you a lesson Boyfriend."]
+    }
+  ]
+}

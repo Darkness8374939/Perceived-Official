@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 1.0,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "DarknessUnfolded",
+    "fadeTime": 3.7,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "shadow",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["Ah, Boyfriend. I've been expecting you."]
+    },
+    {
+      "speaker": "shadow",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["For quite awhile now, in fact."]
+    },
+    {
+      "speaker": "boyfriend",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["Beep, bop?"]
+    },
+    {
+      "speaker": "dark",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["Oh! You can call me Dark."]
+    },
+    {
+      "speaker": "boyfriend",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["Beep boop skeebeep."]
+    },
+    {
+      "speaker": "dark",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["I've seen every rap battle you've ever had, and every rap battle you are going to have."]
+    },
+    {
+      "speaker": "darkfrown",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["Just don't do what I saw you do in the vision, ok?"]
+    },
+    {
+      "speaker": "boyfriend",
+      "speakerAnimation": "talk",
+      "box": "darkness",
+      "boxAnimation": "idle",
+
+      "text": ["BEEP!"]
+    }
+  ]
+}

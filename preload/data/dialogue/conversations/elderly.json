@@ -1,0 +1,127 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 2.0,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "ElderlyCut",
+    "fadeTime": 3.7,
+    "looped": false
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "janitor",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["We have arrived you two."]
+    },
+    {
+      "speaker": "boyfriend",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Skebeep bop"]
+    },
+    {
+      "speaker": "girlfriend",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Hey, you sure the apartment complex's exit is in there?"]
+    },
+    {
+      "speaker": "boyfriend",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Beep"]
+    },
+    {
+      "speaker": "janitor",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Go in there, and the exit is yours..."]
+    },
+    {
+      "speaker": "janitor",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["I'll be in there soon. You guys go in first."]
+    },
+    {
+      "speaker": "girlfriend",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Babe... I don't trust this creep..."]
+    },
+    {
+      "speaker": "boyfriend",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Beep bop..."]
+    },
+    {
+      "speaker": "girlfriend",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Maybe distract him with a rap battle?"]
+    },
+    {
+      "speaker": "boyfriend",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Boop bop beep"]
+    },
+    {
+      "speaker": "janitor",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Hey kid, you said you wanna rap battle!?"]
+    },
+    {
+      "speaker": "janitor",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["When the exit is right here?"]
+    },
+    {
+      "speaker": "janitor",
+      "speakerAnimation": "talk",
+      "box": "elderly",
+      "boxAnimation": "idle",
+
+      "text": ["Aw, fine... but make this quick!"]
+    }
+  ]
+}
