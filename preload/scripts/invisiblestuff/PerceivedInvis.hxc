@@ -1,0 +1,42 @@
+import funkin.audio.FunkinSound;
+import flixel.FlxG;
+import funkin.graphics.FunkinSprite;
+import flixel.FlxSprite;
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.util.Constants;
+import funkin.play.PlayStatePlaylist;
+import flixel.util.FlxG;
+import funkin.Paths;
+import funkin.modding.module.Module;
+
+class PerceivedInvis extends Module
+{
+
+     public function new()
+     {
+         super('perceivedinvis');
+     }
+
+   public function onCountdownStart(event)
+   {
+       super.onCountdownStart(event);
+
+       disobedientui = PlayState.instance;
+
+       var newui:Bool = false;
+       if(newui || !isSongValid(disobedientui.currentSong.id)) return;
+       newui = true;
+
+       disobedientui.healthBar.visible = false;
+       disobedientui.healthBarBG.visible = false;
+       disobedientui.iconP1.visible = false;
+       disobedientui.iconP2.visible = false;
+   }
+
+   function isSongValid(songId:String):Bool
+   {
+      var validSongs:Array<String> = ["darkness", "distress", "assigned-destroyer"];
+      return validSongs.contains(songId);
+   }
+}

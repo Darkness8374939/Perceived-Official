@@ -1,0 +1,56 @@
+import funkin.audio.FunkinSound;
+import flixel.FlxG;
+import funkin.graphics.FunkinSprite;
+import flixel.FlxSprite;
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.util.Constants;
+import funkin.play.PlayStatePlaylist;
+import flixel.util.FlxG;
+import funkin.Paths;
+import funkin.modding.module.Module;
+
+class DisobedientInvis extends Module
+{
+
+     public function new()
+     {
+         super('disobedientinvis');
+     }
+
+   public function onCountdownStart(event)
+   {
+       super.onCountdownStart(event);
+
+       disobedientui = PlayState.instance;
+
+       var newui:Bool = false;
+       if(newui || !isSongValid(disobedientui.currentSong.id)) return;
+       newui = true;
+
+       disobedientui.healthBar.visible = false;
+       disobedientui.healthBarBG.visible = false;
+       disobedientui.iconP1.visible = false;
+       disobedientui.iconP2.visible = false;
+       disobedientui.scoreText.visible = false;
+       disobedientui.opponentStrumline.visible = false;
+       disobedientui.comboPopUps.visible = false;
+   }
+
+   function isSongValid(songId:String):Bool
+   {
+      var validSongs = ["disobedient"];
+      return validSongs.contains(songId);
+   }
+
+  function centerPlayerStrumline()
+  {
+    if (Preferences.controlsScheme == "Arrows" && !ControlsHandler.usingExternalInputDevice) return;
+
+    var playerStrumline:FlxSprite = PlayState.instance.playerStrumline;
+    if (playerStrumline != null)
+    {
+      playerStrumline.x = FlxG.width / 2 - playerStrumline.width / 2;
+    }
+  }
+}
