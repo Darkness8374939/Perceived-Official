@@ -1,0 +1,56 @@
+{
+  "version": "1.1.0",
+  "name": "Darkness",
+  "assetPath": "weekdark/images/dialogueBoxWeek1",
+  "isPixel": false,
+  "flipX": false,
+  "flipY": false,
+  "offsets": [-605, -25],
+  "scale": 2.5,
+
+  "text": {
+    "offsets": [135, 125],
+    "width": 900,
+    "color": "#00e8ff",
+    "fontFamily": "Arial",
+    "shadowColor": "#ffffff",
+    "shadowWidth": 1
+  },
+
+  "animations": [
+    {
+      "name": "enter",
+      "prefix": "Text Box Appear0",
+      "offsets": [0, 0],
+      "frameRate": 24
+    },
+    {
+      "name": "speaking",
+      "prefix": "Text Box Speaking0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "sentenceEnd",
+      "prefix": "Text Box Sentence End0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "idle",
+      "prefix": "Text Box wait to click0",
+      "looped": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "click",
+      "prefix": "Text Box CLICK0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "exit",
+      "prefix": "Text Box Appear0",
+      "offsets": [0, 0],
+      "frameIndices": [4, 3, 2, 1, 0],
+      "frameRate": 24
+    }
+  ]
+}
