@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="weekdark/images/bubble.png" width="1193" height="838">
+  <SubTexture name="Bubble0001" x="439" y="660"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0002" x="1640" y="660"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0003" x="2500" y="660"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0004" x="4189" y="660"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0005" x="439" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0006" x="1695" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0007" x="3022" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0008" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0009" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0010" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0011" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0012" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0013" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0014" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0015" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0016" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0017" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0018" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="Bubble0019" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0001" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0002" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0003" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0004" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0005" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0006" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0007" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0008" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0009" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0010" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0011" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0012" x="4342" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0013" x="3022" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0014" x="1695" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0015" x="439" y="1680"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0016" x="4189" y="660"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0017" x="2500" y="660"  width="1193" height="858" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0018" x="1640" y="660"  width="1193" height="858" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+  <SubTexture name="BubbleFade0019" x="439" y="600"  width="1193" height="838" frameX="0" frameY="0" frameWidth="1193" frameHeight="838"/>
+</TextureAtlas>

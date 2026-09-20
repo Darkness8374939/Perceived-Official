@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="weekdark/images/dialogueBoxWeek1.png">
+	<SubTexture name="Text Box Appear instance 10000" x="0" y="0" width="475" height="135" />
+	<SubTexture name="Text Box Appear instance 10001" x="0" y="0" width="475" height="135" />
+	<SubTexture name="Text Box Appear instance 10002" x="0" y="0" width="475" height="135" />
+	<SubTexture name="Text Box Appear instance 10003" x="0" y="0" width="475" height="135" />
+	<SubTexture name="Text Box Appear instance 10004" x="0" y="0" width="475" height="135" />
+</TextureAtlas>
