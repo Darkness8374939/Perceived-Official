@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "name": "Sign",
+  "renderType": "multisparrow",
+  "assetPath": "characters/Sign",
+  "flipX": false,
+  "singTime": 3.2,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Sign IDLE",
+      "frames": 7,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Sign POSE LEFT",
+      "frames": 7,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Sign POSE DOWN",
+      "frames": 7,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Sign POSE UP",
+      "frames": 7,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Sign POSE RIGHT",
+      "frames": 7,
+      "loop": true,
+      "offsets": [0, 0]
+    }
+  ]
+}

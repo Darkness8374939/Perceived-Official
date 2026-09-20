@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "name": "Distressor",
+  "renderType": "multisparrow",
+  "assetPath": "characters/Distressor",
+  "flipX": false,
+  "singTime": 4.7,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Distressor IDLE",
+      "frames": 10,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Distressor POSE LEFT",
+      "frames": 6,
+      "loop": false,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Distressor POSE DOWN",
+      "frames": 6,
+      "loop": false,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Distressor POSE UP",
+      "frames": 7,
+      "loop": false,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Distressor POSE RIGHT",
+      "frames": 7,
+      "loop": false,
+      "offsets": [0, 0]
+    }
+  ]
+}

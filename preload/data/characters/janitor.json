@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "name": "Janitor",
+  "renderType": "multisparrow",
+  "assetPath": "characters/Janitor",
+  "flipX": false,
+  "singTime": 3.2,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Janitor IDLE",
+      "frames": 8,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Janitor POSE LEFT",
+      "frames": 3,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Janitor POSE DOWN",
+      "frames": 3,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Janitor POSE UP",
+      "frames": 3,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Janitor POSE RIGHT",
+      "frames": 3,
+      "loop": true,
+      "offsets": [0, 0]
+    }
+  ]
+}

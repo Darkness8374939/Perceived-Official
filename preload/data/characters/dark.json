@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "name": "Dark",
+  "renderType": "multisparrow",
+  "assetPath": "characters/Dark",
+  "flipX": false,
+  "singTime": 4.5,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Dark IDLE",
+      "frames": 7,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Dark POSE LEFT",
+      "frames": 3,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Dark POSE DOWN",
+      "frames": 2,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Dark POSE UP",
+      "frames": 3,
+      "loop": true,
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Dark POSE RIGHT",
+      "frames": 3,
+      "loop": true,
+      "offsets": [0, 0]
+    }
+  ]
+}
