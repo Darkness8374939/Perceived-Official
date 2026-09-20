@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "name": "Janitor",
+  "assetPath": "weekgc/images/portraitJanitor",
+  "flipX": false,
+  "isPixel": false,
+  "scale": 1.2,
+  "offsets": [-335, -130],
+  "animations": [
+    {
+      "name": "talkEnter",
+      "prefix": "portraitEnter0",
+      "frameRate": 12
+    },
+    {
+      "name": "talk",
+      "prefix": "portraitTalk0"
+    }
+  ]
+}
