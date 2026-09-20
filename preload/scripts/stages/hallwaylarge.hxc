@@ -1,0 +1,57 @@
+import flixel.math.FlxAngle;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import flixel.addons.display.FlxTiledSprite;
+import funkin.modding.module.Module;
+import funkin.play.components.HealthIcon;
+import funkin.Paths;
+import flixel.FlxSprite;
+import flixel.math.FlxMath;
+import flixel.math.FlxPoint;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import funkin.graphics.FunkinSprite;
+import funkin.util.MathUtil;
+
+class hallwaylargeStage extends Stage
+{
+  function new()
+  {
+    super('hallwaylarge');
+  }
+
+  override function buildStage()
+  {
+    super.buildStage();
+
+    iconOpponent = getNamedProp('iconOpponent');
+    iconPlayer = getNamedProp('iconPlayer');
+
+    add(iconOpponent);
+    add(iconPlayer);
+    refresh(); // Apply z-index.
+  }
+
+  override function onUpdate(event:UpdateScriptEvent):Void
+  {
+    super.onUpdate(event);
+
+        var health:Float = PlayState.instance.health;
+
+        if (health > 1.6)
+        {
+          iconPlayer.playAnimation("win");
+          iconOpponent.playAnimation("lose");
+        }
+        else if (health < 0.4)
+        {
+          iconPlayer.playAnimation("lose");
+          iconOpponent.playAnimation("win");
+        }
+        else if (health > 0.4 || health < 1.6)
+        {
+          iconPlayer.playAnimation("win");
+          iconOpponent.playAnimation("win");
+        }
+  }
+}

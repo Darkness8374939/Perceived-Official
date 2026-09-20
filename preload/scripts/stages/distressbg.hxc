@@ -1,0 +1,87 @@
+import flixel.math.FlxAngle;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import flixel.addons.display.FlxTiledSprite;
+import funkin.modding.module.Module;
+import funkin.play.components.HealthIcon;
+import funkin.Paths;
+import flixel.FlxSprite;
+import flixel.math.FlxMath;
+import flixel.math.FlxPoint;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import flixel.tweens.FlxEase;
+import funkin.graphics.FunkinSprite;
+import funkin.util.MathUtil;
+
+class distressbgStage extends Stage
+{
+  function new()
+  {
+    super('distressbg');
+  }
+
+  public var bubblestate:Int = 0;
+  public var bubble:FunkinSprite;
+
+  override function buildStage()
+  {
+    super.buildStage();
+
+    iconOpponent = getNamedProp('iconOpponent');
+    iconPlayer = getNamedProp('iconPlayer');
+    bubble = getNamedProp('bubble');
+
+    add(iconOpponent);
+    add(iconPlayer);
+    add(bubble);
+    refresh(); // Apply z-index.
+  }
+
+   override function onUpdate(event:UpdateEventScript):Void
+   {
+       super.onUpdate(event);
+       {
+        var health:Float = PlayState.instance.health;
+
+        if (health > 1.6)
+        {
+          iconPlayer.playAnimation("win");
+          iconOpponent.playAnimation("lose");
+        }
+        else if (health < 0.4)
+        {
+          iconPlayer.playAnimation("lose");
+          iconOpponent.playAnimation("win");
+        }
+        else if (health > 0.4 || health < 1.6)
+        {
+          iconPlayer.playAnimation("win");
+          iconOpponent.playAnimation("win");
+        }
+
+        switch (bubblestate)
+        {
+          case 0: // Default
+            if (bubblestate == 0)
+            {
+               bubble.alpha = 0;
+            }
+
+          case 1: // Bubble
+            if (bubblestate == 1)
+            {
+               bubble.alpha = 1;
+               PlayState.instance.health = PlayState.instance.health / 1.5;
+            }
+
+          case 2: // Kill
+            if (bubblestate == 2)
+            {
+               PlayState.instance.health = -2;
+               bubblestate = 0;
+            }
+       }
+    }
+  }
+}

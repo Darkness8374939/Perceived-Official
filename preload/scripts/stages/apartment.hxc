@@ -1,0 +1,181 @@
+import flixel.FlxSprite;
+import flixel.addons.display.FlxRuntimeShader;
+import flixel.sound.FlxSound;
+import funkin.Conductor;
+import funkin.graphics.shaders.AdjustColorShader;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import funkin.play.character.CharacterType;
+import funkin.graphics.shaders.OverlayBlend;
+import flixel.addons.display.FlxBackdrop;
+import funkin.util.HapticUtil;
+import funkin.util.Sequence;
+import funkin.FunkinMemory;
+
+class apartmentStage extends Stage
+{
+  function new()
+  {
+    super('apartment');
+  }
+
+  var colorShaderBf:AdjustColorShader;
+  var colorShaderDad:AdjustColorShader;
+  var colorShader:AdjustColorShader;
+  var mist1:FlxBackdrop;
+  var mist2:FlxBackdrop;
+  var mist3:FlxBackdrop;
+  var mist4:FlxBackdrop;
+  var mist5:FlxBackdrop;
+
+  public override function onCountdownStart(event:CountdownScriptEvent):Void
+  {
+    super.onCountdownStart(event);
+  }
+
+  function buildStage()
+  {
+    super.buildStage();
+
+    colorShaderBf = new AdjustColorShader();
+    colorShaderDad = new AdjustColorShader();
+
+    colorShaderBf.brightness = -95;
+    colorShaderBf.hue = -4;
+    colorShaderBf.contrast = 0;
+    colorShaderBf.saturation = -20;
+
+    colorShaderDad.brightness = -35;
+    colorShaderDad.hue = -4;
+    colorShaderDad.contrast = 0;
+    colorShaderDad.saturation = -20;
+
+    eyes = getNamedProp('blink');
+    closedeyes = getNamedProp('closedeyes');
+
+    add(eyes);
+    add(closedeyes);
+    refresh(); // Apply z-index.
+  }
+
+  function onBeatHit(event:SongTimeScriptEvent):Void
+  {
+    super.onBeatHit(event);
+  }
+
+  function onStepHit(event:SongTimeScriptEvent):Void
+  {
+    super.onStepHit(event);
+  }
+
+  /**
+   * Apply the shader to the character as it is added.
+   */
+  override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
+  {
+    // Apply the shader automatically to each character as it gets added.
+    super.addCharacter(character, charType);
+    trace('Applied stage shader to ' + character.characterName);
+    switch (charType)
+    {
+      case CharacterType.BF:
+        character.shader = colorShaderBf;
+      case CharacterType.DAD:
+        character.shader = colorShaderDad;
+    }
+    colorShader = new AdjustColorShader();
+
+    mist1 = new FlxBackdrop(Paths.image('weekgc/part1/images/disobedient/mistMid'), 0x01);
+    mist1.setPosition(-650, -1000);
+    mist1.scrollFactor.set(1.5, 1.65);
+    mist1.zIndex = 20;
+    mist1.blend = 0;
+    mist1.color = 0x51500E;
+    mist1.alpha = 0.4;
+    mist1.velocity.x = -100;
+
+    PlayState.instance.currentStage.add(mist1);
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+
+    mist2 = new FlxBackdrop(Paths.image('weekgc/part1/images/disobedient/mistBack'), 0x01);
+    mist2.setPosition(-650, -600);
+    mist2.scrollFactor.set(1.2, 1.2);
+    mist2.zIndex = 30;
+    mist2.blend = 0;
+    mist2.color = 0x51500E;
+    mist2.alpha = 0.2;
+    mist2.velocity.x = -75;
+    mist1.scale.set(1.5, 1.8);
+
+    add(mist2);
+
+    mist3 = new FlxBackdrop(Paths.image('weekgc/part1/images/disobedient/mistMid'), 0x01);
+    mist3.setPosition(-650, -800);
+    mist3.scrollFactor.set(0.8, 0.8);
+    mist3.zIndex = 15;
+    mist3.blend = 0;
+    mist3.color = 0x51500E;
+    mist3.alpha = 0.3;
+    mist3.velocity.x = -75;
+    mist3.scale.set(1.5, 2.0);
+
+    PlayState.instance.currentStage.add(mist3);
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+
+    mist4 = new FlxBackdrop(Paths.image('weekgc/part1/images/disobedient/mistBack'), 0x01);
+    mist4.setPosition(-650, -500);
+    mist4.scrollFactor.set(0.6, 0.6);
+    mist4.zIndex = 13;
+    mist4.blend = 0.6;
+    mist4.color = 0x51500E;
+    mist4.alpha = 0;
+    mist4.velocity.x = -75;
+    mist4.scale.set(1.5, 1.5);
+
+    PlayState.instance.currentStage.add(mist4);
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+
+    mist5 = new FlxBackdrop(Paths.image('weekgc/part1/images/disobedient/mistMid'), 0x01);
+    mist5.setPosition(-650, -900);
+    mist5.scrollFactor.set(0.2, 0.2);
+    mist5.zIndex = 12;
+    mist5.blend = 0;
+    mist5.color = 0x51500E;
+    mist5.alpha = 0;
+    mist5.velocity.x = 0;
+    mist5.scale.set(0, 0);
+
+    PlayState.instance.currentStage.add(mist5);
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+   }
+
+  var _timer:Float = 0;
+
+  override function onUpdate(event:UpdateScriptEvent):Void
+  {
+    super.onUpdate(event);
+
+    var health:Float = PlayState.instance.health;
+
+    if (health >= 0.4)
+    {
+      closedeyes.alpha = 0;
+      eyes.playAnimation("open");
+      eyes.alpha = 0;
+    }
+    else if (health < 0.4)
+    {
+      eyes.alpha = 1;
+      eyes.playAnimation("close");
+      eyes.alpha = 0;
+      closedeyes.alpha = 1;
+    }
+
+    _timer += event.elapsed;
+    mist1.y = 100 + (Math.sin(_timer) * 200);
+    mist2.y = 0 + (Math.sin(_timer * 0.8) * 100);
+    mist3.y = -20 + (Math.sin(_timer * 0.5) * 200);
+    mist4.y = -180 + (Math.sin(_timer * 0.4) * 300);
+    mist5.y = -450 + (Math.sin(_timer * 0.2) * 150);
+  }
+}
