@@ -1,0 +1,62 @@
+{
+  "version": "2.2.4",
+  "songName": "Distress",
+  "artist": "Darkened28461",
+  "charter": "Darkened28461",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {    },
+    "vocals": {    },
+    "altVocals": {    }
+  },
+  "playData": {
+    "songVariations": [    ],
+    "difficulties": [
+      "normal",
+      "hard",
+      "easy"
+    ],
+    "characters": {
+      "player": "bf",
+      "girlfriend": "gf",
+      "opponent": "distressor",
+      "instrumental": "",
+      "altInstrumentals": [      ],
+      "opponentVocals": [
+        "distressor"
+      ],
+      "playerVocals": [
+        "bf"
+      ]
+    },
+    "stage": "distressbg",
+    "noteStyle": "perceived",
+    "album": "volume2perceived",
+    "ratings": {
+      "easy": 5,
+      "hard": 6,
+      "normal": 5
+    },
+    "previewStart": 0,
+    "previewEnd": 12500
+  },
+  "generatedBy": "Friday Night Funkin' - v0.6.3",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 155,
+      "n": 4,
+      "d": 4,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}
