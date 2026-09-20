@@ -1,0 +1,66 @@
+import funkin.play.notes.notestyle.ScriptedNoteStyle;
+import funkin.Paths;
+import funkin.play.PlayState;
+import funkin.graphics.FunkinSprite;
+import funkin.Preferences;
+import funkin.play.notes.NoteSplash;
+import funkin.play.notes.Strumline;
+import funkin.play.notes.NoteVibrationsHandler;
+import funkin.play.notes.notekind.NoteKindManager;
+import funkin.play.notes.notekind.NoteKind;
+import funkin.play.notes.NoteSprite;
+import funkin.play.notes.notestyle.NoteStyle;
+import funkin.data.notestyle.NoteStyleRegistry;
+import funkin.Highscore;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import funkin.FunkinMemory;
+
+/**
+ * A custom note kind which has custom functionality, preventing notes from being scored in the Results Screen.
+ */
+class bubblenoteNoteKind extends NoteKind
+{
+       public function new(noteKind:String, description:String = "", ?noteStyleId:String, ?params:Array)
+   {
+     super("bubblenote", "bubblenote", "bubblenote", []);
+     scoreable = false;
+   }
+
+	public override function onNoteMiss(event:NoteScriptEvent):Void
+   {
+		if (event.note.noteData.kind == "bubblenote") 
+		{
+          {
+             event.cancelEvent();
+          }
+	   }
+   }
+
+   public override function onNoteHit(event:NoteScriptEvent):Void
+   {
+      var stage = PlayState.instance.currentStage;
+      stage.bubble;
+      var BubbleTimer = new FlxTimer();
+
+      if (stage.bubblestate == 0)
+      {
+          stage.bubblestate = 1;
+          stage.bubble.playAnimation("appear");
+
+          BubbleTimer.start (4.3,function(_)
+          {
+              if (stage.bubblestate == 1 || NoteSprite.hasBeenHit == false)
+              {
+                  stage.bubble.playAnimation("disappear");
+                  stage.bubblestate = 0;
+              }
+          });
+      }
+      else if (stage.bubblestate == 1)
+      {
+          stage.bubblestate = 2;
+      }
+   }
+}
