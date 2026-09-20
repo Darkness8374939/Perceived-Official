@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sign.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sign IDLE" x="0" y="0" width="1710" height="2202" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign IDLE0002" x="1680" y="0" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign IDLE0003" x="3360" y="0" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign IDLE0004" x="5040" y="0" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign IDLE0005" x="6720" y="0" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign IDLE0006" x="6720" y="0" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign IDLE0007" x="6720" y="0" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE LEFT" x="0" y="2188" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE LEFT0002" x="1680" y="2188" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE LEFT0003" x="3360" y="2188" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE LEFT0004" x="5040" y="2188" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE LEFT0005" x="5040" y="2188" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE LEFT0006" x="5040" y="2188" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE LEFT0007" x="5040" y="2188" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE DOWN" x="0" y="4288" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE DOWN0002" x="1680" y="4288" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE DOWN0003" x="3360" y="4288" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE DOWN0004" x="5040" y="4288" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE DOWN0005" x="5040" y="4288" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE DOWN0006" x="5040" y="4288" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE DOWN0007" x="5040" y="4288" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE UP" x="0" y="6420" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE UP0002" x="1680" y="6420" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE UP0003" x="3360" y="6420" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE UP0004" x="5040" y="6420" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE UP0005" x="5040" y="6420" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE UP0006" x="5040" y="6420" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE UP0007" x="5040" y="6420" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE RIGHT" x="0" y="8589" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE RIGHT0002" x="1680" y="8589" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2202"/>
+	<SubTexture name="Sign POSE RIGHT0003" x="3360" y="8589" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2202"/>
+	<SubTexture name="Sign POSE RIGHT0004" x="5040" y="8589" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE RIGHT0005" x="5040" y="8589" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE RIGHT0006" x="5040" y="8589" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+	<SubTexture name="Sign POSE RIGHT0007" x="5040" y="8589" width="1710" height="2171" frameX="0" frameY="0" frameWidth="1710" frameHeight="2171"/>
+</TextureAtlas>

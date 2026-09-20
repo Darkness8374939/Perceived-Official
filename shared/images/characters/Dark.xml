@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dark.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dark IDLE" x="6" y="17" width="567" height="907" frameX="1" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark IDLE0002" x="596" y="23" width="567" height="907" frameX="2" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark IDLE0003" x="1198" y="28" width="567" height="907" frameX="3" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark IDLE0004" x="1789" y="28" width="567" height="907" frameX="4" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark IDLE0004" x="1789" y="28" width="567" height="907" frameX="4" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark IDLE0005" x="1789" y="28" width="567" height="907" frameX="4" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark IDLE0006" x="1789" y="28" width="567" height="907" frameX="4" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark IDLE0007" x="1789" y="28" width="567" height="907" frameX="4" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE RIGHT" x="2374" y="45" width="567" height="907" frameX="5" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE RIGHT0002" x="2965" y="51" width="567" height="907" frameX="6" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE RIGHT0003" x="3561" y="107" width="567" height="907" frameX="7" frameY="0" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE DOWN" x="0" y="990" width="567" height="907" frameX="1" frameY="-1" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE DOWN0002" x="551" y="979" width="567" height="907" frameX="2" frameY="-1" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE UP" x="1125" y="1001" width="567" height="907" frameX="3" frameY="-1" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE UP0002" x="1716" y="1007" width="567" height="907" frameX="4" frameY="-1" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE UP0003" x="2267" y="1013" width="567" height="907" frameX="5" frameY="-1" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE LEFT" x="0" y="1907" width="567" height="907" frameX="1" frameY="-2" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE LEFT0002" x="591" y="1918" width="567" height="907" frameX="2" frameY="-2" frameWidth="570" frameHeight="950"/>
+	<SubTexture name="Dark POSE LEFT0003" x="1193" y="1935" width="567" height="907" frameX="3" frameY="-2" frameWidth="570" frameHeight="950"/>
+</TextureAtlas>

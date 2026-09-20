@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Distressor.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Distressor IDLE" x="0" y="0" width="813" height="1038" frameX="1" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0002" x="850" y="0" width="813" height="1038" frameX="2" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0003" x="1675" y="0" width="813" height="1038" frameX="3" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0004" x="2500" y="0" width="813" height="1038" frameX="4" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0005" x="2500" y="0" width="813" height="1038" frameX="4" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0006" x="2500" y="0" width="813" height="1038" frameX="4" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0007" x="2500" y="0" width="813" height="1038" frameX="4" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0008" x="2500" y="0" width="813" height="1038" frameX="4" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0009" x="2500" y="0" width="813" height="1038" frameX="4" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor IDLE0010" x="2500" y="0" width="813" height="1038" frameX="4" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE LEFT" x="3350" y="0" width="813" height="1038" frameX="5" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE LEFT0002" x="4188" y="0" width="813" height="1038" frameX="6" frameY="0" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE LEFT0003" x="0" y="1088" width="813" height="1038" frameX="0" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE LEFT0005" x="0" y="1088" width="813" height="1038" frameX="0" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE LEFT0005" x="0" y="1088" width="813" height="1038" frameX="0" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE LEFT0006" x="0" y="1088" width="813" height="1038" frameX="0" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE UP" x="850" y="1088" width="813" height="1038" frameX="2" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE UP0002" x="1675" y="1088" width="813" height="1038" frameX="3" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE UP0003" x="2500" y="1088" width="813" height="1038" frameX="4" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE UP0004" x="3350" y="1088" width="813" height="1038" frameX="5" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE UP0005" x="3350" y="1088" width="813" height="1038" frameX="5" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE UP0006" x="3350" y="1088" width="813" height="1038" frameX="5" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE UP0007" x="3350" y="1088" width="813" height="1038" frameX="5" frameY="1" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE RIGHT" x="1675" y="2092" width="813" height="1038" frameX="3" frameY="2" frameWidth="815" frameHeight="1060"/>
+	<SubTexture name="Distressor POSE RIGHT0002" x="2500" y="2092" width="813" height="1038" frameX="4" frameY="2" frameWidth="815" frameHeight="1060"/>
+	<SubTexture name="Distressor POSE RIGHT0003" x="3350" y="2092" width="813" height="1038" frameX="5" frameY="2" frameWidth="815" frameHeight="1060"/>
+	<SubTexture name="Distressor POSE RIGHT0004" x="4188" y="2092" width="813" height="1038" frameX="6" frameY="2" frameWidth="815" frameHeight="1060"/>
+	<SubTexture name="Distressor POSE RIGHT0005" x="4188" y="2092" width="813" height="1038" frameX="6" frameY="2" frameWidth="815" frameHeight="1060"/>
+	<SubTexture name="Distressor POSE RIGHT0006" x="4188" y="2092" width="813" height="1038" frameX="6" frameY="2" frameWidth="815" frameHeight="1060"/>
+	<SubTexture name="Distressor POSE RIGHT0007" x="4188" y="2092" width="813" height="1038" frameX="6" frameY="2" frameWidth="815" frameHeight="1060"/>
+	<SubTexture name="Distressor POSE DOWN" x="4187" y="3345" width="813" height="1038" frameX="2" frameY="2" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE DOWN0002" x="0" y="4300" width="813" height="1038" frameX="1" frameY="3" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE DOWN0003" x="850" y="4300" width="813" height="1038" frameX="1" frameY="4" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE DOWN0004" x="850" y="4300" width="813" height="1038" frameX="1" frameY="4" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE DOWN0005" x="850" y="4300" width="813" height="1038" frameX="1" frameY="4" frameWidth="815" frameHeight="1040"/>
+	<SubTexture name="Distressor POSE DOWN0006" x="850" y="4300" width="813" height="1038" frameX="1" frameY="4" frameWidth="815" frameHeight="1040"/>
+</TextureAtlas>
