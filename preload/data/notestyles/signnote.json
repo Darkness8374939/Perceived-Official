@@ -1,0 +1,171 @@
+{
+  "version": "1.1.0",
+  "name": "signnote",
+  "author": "PhantomArcade",
+  "fallback": "funkin",
+  "assets": {
+    "note": {
+      "assetPath": "shared:notetype/songnote/assigned-destroyer/signnote",
+      "scale": 0.7,
+      "data": {
+        "left": { "prefix": "noteLeft" },
+        "down": { "prefix": "noteDown" },
+        "up": { "prefix": "noteUp" },
+        "right": { "prefix": "noteRight" }
+      }
+    },
+    "noteStrumline": {
+      "assetPath": "shared:notetype/songnote/assigned-destroyer/signnote",
+      "scale": 0.7,
+      "offsets": [0, 0],
+      "data": {
+        "leftStatic": { "prefix": "noteLeft" },
+        "leftPress": { "prefix": "noteLeft" },
+        "leftConfirm": { "prefix": "noteLeft" },
+        "leftConfirmHold": { "prefix": "noteLeft" },
+        "downStatic": { "prefix": "noteDown" },
+        "downPress": { "prefix": "noteDown" },
+        "downConfirm": { "prefix": "noteDown" },
+        "downConfirmHold": { "prefix": "noteDown" },
+        "upStatic": { "prefix": "noteUp" },
+        "upPress": { "prefix": "noteUp" },
+        "upConfirm": { "prefix": "noteUp" },
+        "upConfirmHold": { "prefix": "noteUp" },
+        "rightStatic": { "prefix": "noteRight" },
+        "rightPress": { "prefix": "noteRight" },
+        "rightConfirm": { "prefix": "noteRight" },
+        "rightConfirmHold": { "prefix": "noteRight" }
+      }
+    },
+    "holdNote": {
+      "assetPath": "NOTE_hold_assets",
+      "scale": 0.7,
+      "data": {}
+    },
+    "noteSplash": {
+      "assetPath": "shared:noteSplashes",
+      "alpha": 0.8,
+      "offsets": [25, -5],
+      "data": {
+        "enabled": false,
+        "leftSplashes": [
+          { "prefix": "note impact 1 purple0" },
+          { "prefix": "note impact 2 purple0" }
+        ],
+        "rightSplashes": [
+          { "prefix": "note impact 1 red0" },
+          { "prefix": "note impact 2 red0" }
+        ],
+        "upSplashes": [
+          { "prefix": "note impact 1 green0" },
+          { "prefix": "note impact 2 green0" }
+        ],
+        "downSplashes": [
+          { "prefix": "note impact 1  blue0" },
+          { "prefix": "note impact 2 blue0" }
+        ]
+      }
+    },
+    "holdNoteCover": {
+      "assetPath": "",
+      "offsets": [0, 0],
+      "data": {
+        "enabled": false,
+        "left": {
+          "assetPath": "shared:holdCoverPurple",
+          "start": { "prefix": "holdCoverStartPurple" },
+          "hold": { "prefix": "holdCoverPurple" },
+          "end": { "prefix": "holdCoverEndPurple" }
+        },
+        "right": {
+          "assetPath": "shared:holdCoverRed",
+          "start": { "prefix": "holdCoverStartRed" },
+          "hold": { "prefix": "holdCoverRed" },
+          "end": { "prefix": "holdCoverEndRed" }
+        },
+        "up": {
+          "assetPath": "shared:holdCoverGreen",
+          "start": { "prefix": "holdCoverStartGreen" },
+          "hold": { "prefix": "holdCoverGreen" },
+          "end": { "prefix": "holdCoverEndGreen" }
+        },
+        "down": {
+          "assetPath": "shared:holdCoverBlue",
+          "start": { "prefix": "holdCoverStartBlue" },
+          "hold": { "prefix": "holdCoverBlue" },
+          "end": { "prefix": "holdCoverEndBlue" }
+        }
+      }
+    },
+    "judgementSick": {
+      "assetPath": "images:popup/sick",
+      "scale": 0.65,
+      "isPixel": false
+    },
+    "judgementGood": {
+      "assetPath": "images:popup/good",
+      "scale": 0.65,
+      "isPixel": false
+    },
+    "judgementBad": {
+      "assetPath": "images:popup/bad",
+      "scale": 0.65,
+      "isPixel": false
+    },
+    "judgementShit": {
+      "assetPath": "images:popup/shit",
+      "scale": 0.65,
+      "isPixel": false
+    },
+    "comboNumber0": {
+      "assetPath": "images:popup/num0",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber1": {
+      "assetPath": "images:popup/num1",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber2": {
+      "assetPath": "images:popup/num2",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber3": {
+      "assetPath": "images:popup/num3",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber4": {
+      "assetPath": "images:popup/num4",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber5": {
+      "assetPath": "images:popup/num5",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber6": {
+      "assetPath": "images:popup/num6",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber7": {
+      "assetPath": "images:popup/num7",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber8": {
+      "assetPath": "images:popup/num8",
+      "isPixel": false,
+      "scale": 0.45
+    },
+    "comboNumber9": {
+      "assetPath": "images:popup/num9",
+      "isPixel": false,
+      "scale": 0.45
+    }
+  }
+}
