@@ -1,0 +1,137 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-115, -330],
+      "scale": [1.2, 1.2],
+      "animType": "sparrow",
+      "name": "Hallway",
+      "isPixel": false,
+      "assetPath": "weekgc/part1/images/elderly/background",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 300,
+      "position": [-195, -330],
+      "scale": [1.2, 1.2],
+      "animType": "sparrow",
+      "name": "Lights",
+      "isPixel": false,
+      "assetPath": "weekgc/part1/images/elderly/filters",
+      "scroll": [0.73, 0.73],
+      "animations": []
+    },
+    {
+      "name": "CamsStuff",
+      "assetPath": "weekgc/part1/images/elderly/camsstuff",
+      "position": [-400, -350],
+      "scale": [1.2, 1.2],
+      "scroll": [0, 0],
+      "danceEvery": 1,
+      "zIndex": 400,
+      "alpha": 0.3,
+      "startingAnimation": "idle",
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "camsstuff",
+          "frameRate": 21,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 450,
+      "position": [-95, 590],
+      "scale": [0.3, 0.3],
+      "animType": "sparrow",
+      "name": "iconOpponent",
+      "isPixel": false,
+      "assetPath": "stageIcons/hallwaylarge/iconOpponent",
+      "flipX": false,
+      "scroll": [0, 0],
+      "animations": [
+        {
+          "name": "win",
+          "prefix": "win",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "lose",
+          "prefix": "lose",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 450,
+      "position": [1320, 610],
+      "scale": [0.3, 0.3],
+      "animType": "sparrow",
+      "name": "iconPlayer",
+      "isPixel": false,
+      "assetPath": "stageIcons/hallwaylarge/iconPlayer",
+      "flipX": true,
+      "scroll": [0, 0],
+      "animations": [
+        {
+          "name": "win",
+          "prefix": "win",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "lose",
+          "prefix": "lose",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 500,
+      "position": [-450, -501],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "apartmentCamera",
+      "isPixel": false,
+      "assetPath": "weekgc/part1/images/elderly/camera",
+      "scroll": [0, 0],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.62,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 200,
+      "position": [2270, 1060],
+      "cameraOffsets": [-400, -300]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [765, 950],
+      "cameraOffsets": [150, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, -300],
+      "position": [1800, 900]
+    }
+  },
+  "name": "hallwaylarge",
+  "directory": "weekgc"
+}

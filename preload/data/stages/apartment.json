@@ -1,0 +1,100 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 1,
+      "position": [-780, -780],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "Ceiling",
+      "isPixel": false,
+      "assetPath": "weekgc/part1/images/disobedient/apartmentceiling",
+      "scroll": [0.95, 0.95],
+      "animations": []
+    },
+    {
+      "danceEvery": 1,
+      "zIndex": 120,
+      "position": [-780, -780],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "FirstPersonView",
+      "isPixel": false,
+      "assetPath": "weekgc/part1/images/disobedient/eyesfilter",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 200,
+      "position": [-780, -780],
+      "scale": [1.2, 1],
+      "animType": "sparrow",
+      "name": "closedeyes",
+      "alpha": 0,
+      "isPixel": false,
+      "assetPath": "weekgc/part1/images/disobedient/closedeyes",
+      "scroll": [1.0, 1.0],
+      "animations": [
+        {
+          "name": "closedeyes",
+          "prefix": "closedeyes000",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 190,
+      "position": [-780, -780],
+      "scale": [1.2, 1],
+      "animType": "sparrow",
+      "name": "blink",
+      "isPixel": false,
+      "alpha": 0,
+      "assetPath": "weekgc/part1/images/disobedient/blink",
+      "scroll": [1.0, 1.0],
+      "animations": [
+        {
+          "name": "close",
+          "prefix": "close000",
+          "frameRate": 18,
+          "looped": false,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "open",
+          "prefix": "open000",
+          "frameRate": 18,
+          "looped": false,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    }
+  ],
+  "cameraZoom": 0.55,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": -1000000,
+      "position": [989.5, 400],
+      "cameraOffsets": [-549.5, -205]
+    },
+    "dad": {
+      "zIndex": -1000000,
+      "position": [75, 485],
+      "cameraOffsets": [340, -190]
+    },
+    "gf": {
+      "zIndex": -1000000,
+      "cameraOffsets": [0, 0],
+      "position": [751.5, 400]
+    }
+  },
+  "name": "Apartment",
+  "directory": "weekgc"
+}

@@ -1,0 +1,147 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-1850, -490],
+      "scale": [1.4, 1.4],
+      "animType": "sparrow",
+      "name": "background",
+      "isPixel": false,
+      "assetPath": "weekdark/distressor/images/background",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 375,
+      "position": [-1850, -490],
+      "scale": [1.4, 1.4],
+      "animType": "sparrow",
+      "name": "background",
+      "isPixel": false,
+      "assetPath": "weekdark/distressor/images/railing",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 400,
+      "position": [-1850, -490],
+      "scale": [1.4, 1.4],
+      "animType": "sparrow",
+      "name": "light",
+      "isPixel": false,
+      "assetPath": "weekdark/distressor/images/light",
+      "scroll": [0.9, 0.9],
+      "animations": []
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 190,
+      "position": [-1270, -50],
+      "scale": [0.25, 0.25],
+      "animType": "sparrow",
+      "name": "iconOpponent",
+      "isPixel": false,
+		"alpha": 0.4,
+      "assetPath": "stageIcons/distressbg/iconOpponent",
+      "flipX": false,
+      "scroll": [0.95, 0.95],
+      "animations": [
+        {
+          "name": "win",
+          "prefix": "win",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "lose",
+          "prefix": "lose",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 190,
+      "position": [900, 260],
+      "scale": [0.25, 0.25],
+      "animType": "sparrow",
+      "name": "iconPlayer",
+      "isPixel": false,
+		"alpha": 0.4,
+      "assetPath": "stageIcons/distressbg/iconPlayer",
+      "flipX": true,
+      "scroll": [0.95, 0.95],
+      "animations": [
+        {
+          "name": "win",
+          "prefix": "win",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "lose",
+          "prefix": "lose",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 1,
+      "zIndex": 350,
+      "position": [685, 685],
+      "scale": [0.54, 0.54],
+      "animType": "sparrow",
+      "name": "bubble",
+      "isPixel": false,
+      "alpha": 1,
+      "assetPath": "weekdark/images/bubble",
+      "scroll": [1, 1],
+      "animations": [
+        {
+          "name": "appear",
+          "prefix": "Bubble000",
+          "frameRate": 24,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "disappear",
+          "prefix": "BubbleFade000",
+          "frameRate": 24,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    }
+  ],
+  "cameraZoom": 0.46,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [989.5, 1022],
+      "cameraOffsets": [-800, -390]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [-1050, 1320],
+      "cameraOffsets": [950, -300]
+    },
+    "gf": {
+      "zIndex": -1,
+      "cameraOffsets": [0, 0],
+      "position": [751.5, 885]
+    }
+  },
+  "name": "Distress Background",
+  "directory": "darkweek"
+}

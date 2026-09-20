@@ -1,0 +1,107 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-365, -330],
+      "scale": [1.5, 1.5],
+      "animType": "sparrow",
+      "name": "Background",
+      "isPixel": false,
+      "assetPath": "weekdark/dark/images/background",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 400,
+      "position": [-365, -330],
+      "scale": [1.5, 1.5],
+      "animType": "sparrow",
+      "name": "Light",
+      "isPixel": false,
+      "assetPath": "weekdark/dark/images/light",
+      "scroll": [0.95, 0.95],
+      "animations": []
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 190,
+      "position": [425, 10],
+      "scale": [0.25, 0.25],
+      "animType": "sparrow",
+      "name": "iconOpponent",
+      "isPixel": false,
+		"alpha": 1,
+      "assetPath": "stageIcons/darkbg/iconOpponent",
+      "flipX": false,
+      "scroll": [0.98, 0.98],
+      "animations": [
+        {
+          "name": "win",
+          "prefix": "win",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "lose",
+          "prefix": "lose",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 190,
+      "position": [2130, 465],
+      "scale": [0.25, 0.25],
+      "animType": "sparrow",
+      "name": "iconPlayer",
+      "isPixel": false,
+		"alpha": 1,
+      "assetPath": "stageIcons/darkbg/iconPlayer",
+      "flipX": true,
+      "scroll": [0.98, 0.98],
+      "animations": [
+        {
+          "name": "win",
+          "prefix": "win",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "lose",
+          "prefix": "lose",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    }
+  ],
+  "cameraZoom": 0.48,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [2300, 1190],
+      "cameraOffsets": [-300, -300]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [600, 1270],
+      "cameraOffsets": [400, -300]
+    },
+    "gf": {
+      "zIndex": -1,
+      "cameraOffsets": [0, 0],
+      "position": [751.5, 885]
+    }
+  },
+  "name": "Darkness Background",
+  "directory": "darkweek"
+}

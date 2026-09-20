@@ -1,0 +1,107 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-365, -330],
+      "scale": [2, 2],
+      "animType": "sparrow",
+      "name": "Background",
+      "isPixel": false,
+      "assetPath": "weekdark/sign/images/background",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 400,
+      "position": [-365, -330],
+      "scale": [2, 2],
+      "animType": "sparrow",
+      "name": "Darkness",
+      "isPixel": false,
+      "assetPath": "weekdark/sign/images/filters",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 190,
+      "position": [220, -280],
+      "scale": [0.58, 0.58],
+      "animType": "sparrow",
+      "name": "iconOpponent",
+      "isPixel": false,
+		"alpha": 1,
+      "assetPath": "stageIcons/signbg/iconOpponent",
+      "flipX": false,
+      "scroll": [0.98, 0.98],
+      "animations": [
+        {
+          "name": "win",
+          "prefix": "win",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "lose",
+          "prefix": "lose",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 190,
+      "position": [4275, 1470],
+      "scale": [0.25, 0.25],
+      "animType": "sparrow",
+      "name": "iconPlayer",
+      "isPixel": false,
+		"alpha": 1,
+      "assetPath": "stageIcons/signbg/iconPlayer",
+      "flipX": true,
+      "scroll": [0.98, 0.98],
+      "animations": [
+        {
+          "name": "win",
+          "prefix": "win",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "lose",
+          "prefix": "lose",
+          "frameRate": 1,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    }
+  ],
+  "cameraZoom": 0.39,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [4500, 2200],
+      "cameraOffsets": [-1380, -680]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [850, 2450],
+      "cameraOffsets": [850, -500]
+    },
+    "gf": {
+      "zIndex": -1,
+      "cameraOffsets": [0, 0],
+      "position": [751.5, 885]
+    }
+  },
+  "name": "SignBG",
+  "directory": "darkweek"
+}
